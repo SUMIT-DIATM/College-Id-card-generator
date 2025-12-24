@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:auto;
+}
+   
+main{
+    overflow:auto;
+}
+.card{
+    width:400px;
+    height:220px;
+    background-color:white;
+    border:2px solid rgb(0, 0, 0);
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/*CSS FOR THE FORM*/
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+h2{
+    text-align:center;
+    background-color:rgba(255, 0, 0, 0.674);
+    color:blue;
+    padding: 15px;
+    margin-bottom:20px;
+}
+main{
+    height: auto;;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-top:2px solid green;
+    border-bottom:2px solid rgb(0, 85, 255);
+    border-right:2px solid rgb(255, 0, 0);
+    border-left:2px solid rgb(162, 0, 255);
+    padding:25px;
+    width:40vw;
+}
+label{
+    color:green;
+    font-size:20px;
+}
+
+
+
+.form{
+    display: flex;           
+    align-items: center;     
+    margin: 15px;
+}
+
+label {
+    width: 200px;         
+    font-size: 18px;
+    color: green;
+}
+
+input, select {
+    flex: 1;                
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #af9d9d;
+}
+
+.year1{
+    margin-right:10px;
+}
+.year2{
+    width:185px;
+    text-align:center;
+}
+button{
+    padding:15px;
+    background-color:aqua;
+    color:green;
+    font-weight:700;
+    font-size:larger;
+    border-radius:50px;
+}
+
+
+
+
+
+
+/*CSS FOR CARD*/
+
+
+
+
+
+
+/*COllege heading name*/
+h6{
+    text-align:center;
+    margin-top:5px;
+    color:blue;
+    font-weight:900;
+}
+
+
+.info{
+    display:flex;
+    align-items:center;
+}
+.icon{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    margin:2px 4px;
+}
+.icon img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.address{
+    font-size:11.3px;
+    font-weight:700;
+}
+.contact{
+    font-size:12px;
+    text-align:center;
+}
+.m_no{
+    font-size:10px;
+    text-align:center;
+}
+
+.heading{
+    color:red;
+    text-align:center;
+    font-size:12px;
+}
+
+
+/*Student details css*/
+.all_details{
+    border:1px solid black;
+    width:96%;
+     height:60%;
+    display:flex;
+    align-items:center;
+    border-radius:15px;
+    font-weight:700;
+    padding:4px;
+    margin:5px 0 5px 0;
+    font-size:12px;
+}
+.details{
+  width:85%;
+}
+
+.t{
+    font-weight:100;
+}
+
+.course{
+    display:flex;
+    justify-content:space-around;
+}
+.name{
+    margin-bottom:5px;
+}
+
+.inline{
+    display:flex;
+}
+
+/*Giving proper spacing to the elements*/
+
+.roll{
+    margin-bottom:3px;
+}
+.address{
+       margin-bottom:8px; 
+       margin-top:3px;  
+}
+.s_m_no{
+    margin-bottom:4px; 
+}
+
+
+/*side css*/
+.pic_sign{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.pic{
+    width:50px;
+    height:60px;
+    border:1px solid rgb(0, 0, 0);   
+    margin-bottom:5px;
+}
+.pic img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.sign{
+    height:30px;
+    width:50px;
+
+}
+.sign img{
+    width:100%;
+}
+
+
+.hidden{
+    display:none;
+}
+
+
+
+.year22{
+    width:200px;
+}
+
+
+
+
+/*SEPARATE CSS FOR SHOWING THE CARD IN THE MIDDLE : */
+.center{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/*This is where the cards  will be appended*/
+.cards{
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+
+
+/*CSS FOR UPLOAD BUTTON*/
+.btn{
+            padding:15px;
+            background-color:green;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-weight:500;
+            color:white;
+            border-radius:15px;
+            border:0.1px solid white;
+        }
+        .btn:hover{
+            background-color:rgb(22, 174, 22);
+            color:rgb(255, 255, 255);
+            cursor:pointer;
+        }
+        #fileinp{
+            display:none;
+        }
+        .hidden{
+            display:none; 
+        }
+        .take_input{
+            display:flex;
+            align-items:center;
+        }
+        .re{
+            border-radius:20px;
+            color:rgb(165, 69, 243);
+            background-color:rgb(221, 255, 28);
+            font-weight:600;
+            height:40px;
+            margin-left:7px;
+        }
+        .re:hover{
+            background-color:rgb(153, 94, 201);
+            background-color:rgb(89, 234, 149);
+        }

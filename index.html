@@ -1,0 +1,93 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>College Id Card</title>
+            <link rel="styleSheet" href="style.css">
+            
+        </head>
+        <body>
+        <!--The form --->
+        <main>
+                <h2>FILL ALL YOUR DETAlLS IN CAPITAL LETTER : </h2>
+            <form>
+                <div class="form">
+                <label>Enter your name :&nbsp </label>
+                <input class="name" type="text" placeholder=" enter your full name">
+                </div>
+                <div class="form" >
+                <label class="year1">Enter Your Admission : 20- </label>
+                <input  type="number" min="15" class="year2" max="25" placeholder="15-25">    
+                </div>
+                <div>
+                    <label class="year1">Enter your roll number  : </label>
+                    <input class="year22" type="number" min="1" max="90" placeholder="0-90">
+                </div>
+
+                <div class="form">
+                    <label>Enter your Department : </label>
+                    <select class="stream">
+                        <option value="null">select Department</option>
+                        <option value="CSE">Computer science</option>
+                        <option value="EE">Electrical Enginiering</option>
+                        <option value="ME">Mechanical Enginiering</option>
+                    </select>
+                </div>
+
+
+
+
+
+                <div class="form">
+                    <label>Enter Gurdian name : </label>
+                    <input class="g_name" type="text" placeholder=" enter gurdian name">
+                </div>
+                <div class="form">
+                    <label>Enter your village name : </label>
+                    <input class="v_name" type="text" placeholder="enter your village name">
+                </div>
+                <div class="form">
+                    <label>Enter your post office : </label>
+                    <input  class="p_name" type="text" placeholder="enter your post office">
+                </div>
+                <div class="form">
+                    <label>Enter your pincode  : </label>
+                    <input  class="p_name" type="number" placeholder="enter your pincode">
+                </div>
+                <div class="form">
+                    <label>Enter your phone number : </label>
+                    <input class="p_no" type="number" pattern="\\d{6}" placeholder="enter 10 digit number">
+                </div>
+                <div class="form">
+                    <label>Enter your blood group : </label>
+                    <select class="group">
+                        <option value="null">select your blood group</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select>
+                </div>
+                
+                <input id="fileinp" type="file">
+                <div class="take_input">
+                <label>Upload your pic: </label>
+                <div class="btn"> Upload file</div>
+                <button class="re hidden">re-upload</button>
+                </div>
+
+                <div class="ok"><button type="button">SUBMIT</button></div>
+            
+            </form>
+            </main>
+
+
+            <div class="cards"></div>
+            <script src="script.js"></script>
+        </body>
+        </html>
