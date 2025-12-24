@@ -1,0 +1,1 @@
+# Currently, I am learning javascript Event listener. For practice purpose i made this Id card generator. I know the code is very basic and not well structured.But it is the first mini project type code i written by my own. After improving my knowledge I will comaback and improve this codes quality.
